@@ -19,6 +19,10 @@
 
 ---
 
+## Presentation of Angular
+
+![What is AngularJS](images/slide1.jpg)
+
 ## What is AngularJS?
 
 ![What is AngularJS](images/slide2.jpg)
