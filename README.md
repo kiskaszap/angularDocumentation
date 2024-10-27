@@ -1413,71 +1413,38 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >      \</div\>  
 >      <!-- end of Score -->  
 >   
->      <!-- Quiz -->  
->      \<div  
->          class="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:self-start w-screen lg:w-1/2 xl:w-1/3"  
->      \>  
->          \<div class="overflow-hidden mt-4 lg:col-span-full lg:mt-0 xl:h-24 pl-2 pr-2"\>  
->              \<h1 class="text-xl text-white text-center lg:text-2xl"\>  
->              \{\{currentQuestion.question\}\}  
->              \</h1\>  
->          \</div\>  
->          <!-- Answer Options -->  
->          \<div  
->              ng-repeat="answer in currentQuestion.allAnswers"  
->              class="cursor-pointer hover:bg-indigo-600 xl:mt-10 rounded-xl"  
->              ng-click="selectAnswer(answer)"  
->              ng-class="\{'bg-indigo-600': userAnswer === answer\}"  
->          \>  
->              \<span class="text-white text-xl w-full p-4 text-left lg:text-center rounded-xl block"\>  
->              \{\{answer\}\}  
->              \</span\>  
->          \</div\>  
->          <!-- Submit Button -->  
->          \<div class="absolute bottom-4 left-1/2 transform -translate-x-1/2"\>  
->              \<button  
->                  ng-click="submitAnswer()"  
->                  class="text-white bg-indigo-600 font-medium rounded-lg text-sm px-16 py-3.5 text-center"  
->              \>  
->              Submit  
->              \</button\>  
->          \</div\>  
->      \</div\>  
->      <!-- end of Quiz -->  
->  \</div\>  
->   
->  <!-- Quiz Completed -->  
->  \<div  
->      ng-if="quizCompleted"  
->      class="absolute top-1/2 left-1/2 p-10 bg-gray-700 rounded-2xl w-96 h-96 flex flex-col gap-y-8"  
->      style="transform: translate(-50%, -50%)"  
->  \>  
->      \<h1 class="text-5xl text-center text-gray-50">\{\{username\}\}\</h1\>  
->      \<h3 class="text-3xl text-center text-gray-50">Your Score is\</h3\>  
->      \<h2 class="text-6xl text-center text-gray-50"\>  
->      \{\{(score / questions.length) * 100 | number:0\}\}%  
->      \</h2\>  
->      \<div class="mx-auto mt-auto"\>  
->          \<button  
->              ng-click="goToMenu()"  
->              class="px-8 py-2 mx-3 w-28 bg-indigo-600 rounded-full text-white"  
->          \>  
->          Menu  
->          \</button\>  
->          \<button  
->              ng-click="logout()"  
->              class="px-8 py-2 mx-3 w-28 bg-indigo-600 rounded-full text-white"  
->          \>  
->          Exit  
->          \</button\>  
->      \</div\>  
->  \</div\>  
->   
->  <!-- Error message if no questions are available -->  
->  \<div ng-if="errorMessage" class="text-red-600 text-center mt-10"\>  
->      \{\{errorMessage\}\}  
->  \</div\>  
-\</div\>  
+>> <!-- Quiz -->  
+> \<div  
+>     class="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:self-start w-screen lg:w-1/2 xl:w-1/3"  
+> \>  
+>     \<div class="overflow-hidden mt-4 lg:col-span-full lg:mt-0 xl:h-24 pl-2 pr-2"\>  
+>         \<h1 class="text-xl text-white text-center lg:text-2xl"\>  
+>         \{\{currentQuestion.question\}\}  
+>         \</h1\>  
+>     \</div\>  
+>     <!-- Answer Options -->  
+>     \<div  
+>         ng-repeat="answer in currentQuestion.allAnswers"  
+>         class="cursor-pointer hover:bg-indigo-600 xl:mt-10 rounded-xl"  
+>         ng-click="selectAnswer(answer)"  
+>         ng-class="\{'bg-indigo-600': userAnswer === answer\}"  
+>     \>  
+>         \<span class="text-white text-xl w-full p-4 text-left lg:text-center rounded-xl block"\>  
+>         \{\{answer\}\}  
+>         \</span\>  
+>     \</div\>  
+>     <!-- Submit Button -->  
+>     \<div class="absolute bottom-4 left-1/2 transform -translate-x-1/2"\>  
+>         \<button  
+>             ng-click="submitAnswer()"  
+>             class="text-white bg-indigo-600 font-medium rounded-lg text-sm px-16 py-3.5 text-center"  
+>         \>  
+>         Submit  
+>         \</button\>  
+>     \</div\>  
+> \</div\>  
+> <!-- end of Quiz -->  
+
 
 The `quiz.html` file uses AngularJS directives to create an interactive quiz interface. It binds dynamic data like the current question, progress, score, and username using `{{ }}`. The `ng-if` directive displays the quiz questions or the results based on whether the quiz is completed. `ng-repeat` lists all answer options, and `ng-click` handles selecting and submitting answers. The `ng-class` directive highlights the selected answer. A progress bar visually shows the user's progress, and any errors, such as no available questions, are displayed using data binding.
 
