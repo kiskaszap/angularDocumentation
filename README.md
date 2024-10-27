@@ -702,7 +702,7 @@ For more details: [AngularJS Filters](https://docs.angularjs.org/guide/filter)
 
   **_Example_**
 
-`<p>&#123;&#123; message | uppercase &#125;&#125;</p> <!-- Converts message to uppercase -->`
+`<p>{{ message | uppercase }}</p> <!-- Converts message to uppercase -->`
 
 ## Views and Routing
 
