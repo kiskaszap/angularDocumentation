@@ -682,10 +682,10 @@ For more details: [AngularJS Filters](https://docs.angularjs.org/guide/filter)
 
 **Using Filters in Expressions**
 
-- Filters are applied using the pipe symbol | followed by the filter name.
+- Filters are applied using the pipe symbol `|` followed by the filter name.
 
-  
-  ```html
+  **Example Syntax**:
+  ```plaintext
   {{ expression | filter1 | filter2 }}
 
 **Common Built-in Filters**
