@@ -373,8 +373,7 @@ For More Details: [AngularJS Directives](https://docs.angularjs.org/guide/direct
 
   Reference: [ ngRepeat Directive](https://docs.angularjs.org/api/ng/directive/ngRepeat)
 
-  ```html
-
+  ```HTML
  > \<ul>  
 >   \<li ng-repeat="car in cars">  
 >     \{\{ car \}\}  
