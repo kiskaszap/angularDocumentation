@@ -1388,7 +1388,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \</div\>
 >     \</div\>
 
->     <!-- Quiz content -->
+    <!-- Quiz content -->
 >     \<div ng-if="!quizCompleted" class="lg:flex gap-28 lg:place-content-around lg:mt-8 lg:w-screen xl:mt-12"\>
 >         <!-- Score -->
 >         \<div class="hidden lg:flex lg:flex-col lg:self-start"\>
@@ -1405,7 +1405,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >             \</div\>
 >         \</div\>
 
->         <!-- Quiz -->
+         <!-- Quiz -->
 >         \<div class="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:self-start w-screen lg:w-1/2 xl:w-1/3"\>
 >             \<div class="overflow-hidden mt-4 lg:col-span-full lg:mt-0 xl:h-24 pl-2 pr-2"\>
 >                 \<h1 class="text-xl text-white text-center lg:text-2xl"\>
@@ -1426,10 +1426,10 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >                 \</button\>
 >             \</div\>
 >         \</div\>
->         <!-- end of Quiz -->
+         <!-- end of Quiz -->
 >     \</div\>
 
->     <!-- Quiz Completed -->
+     <!-- Quiz Completed -->
 >     \<div ng-if="quizCompleted" class="absolute top-1/2 left-1/2 p-10 bg-gray-700 rounded-2xl w-96 h-96 flex flex-col gap-y-8"
 >         style="transform: translate(-50%, -50%)"\>
 >         \<h1 class="text-5xl text-center text-gray-50"\>\{\{ username \}\}\</h1\>
@@ -1447,7 +1447,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \</div\>
 >     \</div\>
 
->     <!-- Error message if no questions are available -->
+     <!-- Error message if no questions are available -->
 >     \<div ng-if="errorMessage" class="text-red-600 text-center mt-10"\>
 >         \{\{ errorMessage \}\}
 >     \</div\>
