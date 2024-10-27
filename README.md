@@ -218,10 +218,10 @@ Think of the model as data. For instance:
 
 Used to display content and data to a user in a browser. Use expressions to insert data into views:
 
-```html
-<!-- Example of inserting data into a view -->
-<p>{{ data }}</p>
-```
+
+`<!-- Example of inserting data into a view -->`
+`<p>``{{ data }}``</p>`
+
 
 ### Controller
 
