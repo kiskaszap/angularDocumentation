@@ -223,7 +223,16 @@ Used to display content and data to a user in a browser. Use expressions to inse
 \`<p>\{\{ data \}\}</p>\`
 
 
-`` `<p>{{ data }}</p>` ``
+// Example {{ 5 + 5 }} or {{ firstName + " " + lastName }}
+<!DOCTYPE html>
+<html>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <body>
+    <div ng-app="">
+      <p>My first expression: {{ 5 + 5 }}</p>
+    </div>
+  </body>
+</html>
 
 
 
