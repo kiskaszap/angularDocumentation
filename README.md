@@ -452,9 +452,8 @@ For More Details: [AngularJS Directives](https://docs.angularjs.org/guide/direct
 
   Reference: [ngSrc Directive](https://docs.angularjs.org/api/ng/directive/ngSrc)
 
-  ```HTML
-  <img ng-src="{{ imageUrl }}" alt="Dynamic Image">
-  ```
+> \<img ng-src="\{\{ imageUrl \}\}" alt="Dynamic Image">
+
 
 Directives can be used in different forms, not just as attributes. While we've seen them as attributes so far, they can also be custom HTML elements.
 
