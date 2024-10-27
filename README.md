@@ -1198,7 +1198,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >      \<!-- menu.html -->
 
 > \<div class="bg-gray-800 flex justify-center items-center w-full h-screen"\>  
-> \<!-- Welcome message -->  
+>      \<!-- welcome message -->
 > \<div class="absolute top-6"\>  
 >     \<h1 class="text-4xl text-white">Welcome \{\{username\}\}\</h1\>  
 >     \<h1 class="text-2xl pt-2 text-white text-center xl:pt-6"\>  
