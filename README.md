@@ -220,7 +220,7 @@ Used to display content and data to a user in a browser. Use expressions to inse
 
 
 `<!-- Example of inserting data into a view -->`
-<!-- Example of inserting data into a view: `<p>{{ data }}</p>` -->
+`<p>&#123;&#123; data &#125;&#125;</p>`
 
 
 
