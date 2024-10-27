@@ -1196,13 +1196,13 @@ Open up your favorite text editor, I am going to be using visual studio code for
     - Navigate to the views folder and create a file named menu.html. Then, paste the following code into it
 
 >      <!-- menu.html -->
-
+>
 > \<div class="bg-gray-800 flex justify-center items-center w-full h-screen"\>  
->      <!-- welcome message -->
+>      \<!-- welcome message -->
 > \<div class="absolute top-6"\>  
->     \<h1 class="text-4xl text-white">Welcome \{\{username\}\}\</h1\>  
+>     \<h1 class="text-4xl text-white">Welcome \{\{ username \}\}\</h1\>  
 >     \<h1 class="text-2xl pt-2 text-white text-center xl:pt-6"\>  
->     \{\{date | date:'fullDate'\}\}  
+>     \{\{ date | date:'fullDate' \}\}  
 >     \</h1\>  
 > \</div\>  
 > \<!-- end of welcome message -->  
