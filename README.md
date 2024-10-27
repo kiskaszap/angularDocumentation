@@ -1394,12 +1394,12 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >             \<div class="grid grid-cols-2 divide-x-2 divide-white mt-10"\>  
 >                 \<div class="flex flex-col pr-12"\>  
 >                     \<div class="text-center text-green-400 text-3xl"\>  
->                         \{\{\ score \}\}  
+>                         \{\{ score \}\}  
 >                     \</div\>  
 >                 \</div\>  
 >                 \<div class="flex flex-col pl-12"\>  
 >                     \<div class="text-center text-red-400 text-3xl"\>  
->                         \{\{\ currentIndex - score \}\}  
+>                         \{\{ currentIndex - score \}\}  
 >                     \</div\>  
 >                 \</div\>  
 >             \</div\>  
@@ -1408,14 +1408,14 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \<div class="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:self-start w-screen lg:w-1/2 xl:w-1/3"\>  
 >             \<div class="overflow-hidden mt-4 lg:col-span-full lg:mt-0 xl:h-24 pl-2 pr-2"\>  
 >                 \<h1 class="text-xl text-white text-center lg:text-2xl"\>  
->                     \{\{\ currentQuestion.question \}\}  
+>                     \{\{ currentQuestion.question \}\}  
 >                 \</h1\>  
 >             \</div\>  
 >              \<div></div>
 >             \<div ng-repeat="answer in currentQuestion.allAnswers" class="cursor-pointer hover:bg-indigo-600 xl:mt-10 rounded-xl"  
 >                 ng-click="selectAnswer(answer)" ng-class="\{'bg-indigo-600': userAnswer === answer\}"\>  
 >                 \<span class="text-white text-xl w-full p-4 text-left lg:text-center rounded-xl block"\>  
->                     \{\{\ answer \}\}  
+>                     \{\{ answer \}\}  
 >                 \</span\>  
 >             \</div\>  
 >              \<div></div>
@@ -1430,7 +1430,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >     \<div ng-if="quizCompleted" class="absolute top-1/2 left-1/2 p-10 bg-gray-700 rounded-2xl w-96 h-96 flex flex-col gap-y-8"  
 >         style="transform: translate(-50%, -50%)"\>  
 >         \<h1 class="text-5xl text-center text-gray-50"\>  
->             \{\{\ username \}\}  
+>             \{\{ username \}\}  
 >         \</h1\>  
 >         \<h3 class="text-3xl text-center text-gray-50"\>Your Score is\</h3\>  
 >         \<h2 class="text-6xl text-center text-gray-50"\>  
@@ -1447,7 +1447,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >     \</div\>  
 >      \<div></div>
 >     \<div ng-if="errorMessage" class="text-red-600 text-center mt-10"\>  
->         \{\{\ errorMessage \}\}  
+>         \{\{ errorMessage \}\}  
 >     \</div\>  
 > \</div\>  
 
