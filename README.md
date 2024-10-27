@@ -320,7 +320,7 @@ For More Details [AngularJS Data Binding](https://docs.angularjs.org/guide/datab
 
    - **_ng-model:_** The `ng-model` directive binds the input field to a model (data variable). So, whatever you type into the input field is stored in the `car` variable.
 
-   - **_Expressions:_** We are using double curly braces `\{\{ \}\}` to display the value of `car` in real time.
+   - **_Expressions:_** We are using double curly braces >{{ }} to display the value of `car` in real time.
 
    Completed code:
 
