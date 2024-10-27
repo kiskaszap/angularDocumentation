@@ -1458,6 +1458,11 @@ The `quiz.html` file uses AngularJS directives to create an interactive quiz int
 ![Quiz page](images/quiz.png)
 
 
+The `quiz.html` file uses AngularJS directives to create an interactive quiz interface. It binds dynamic data like the current question, progress, score, and username using `{{ }}`. The `ng-if` directive displays the quiz questions or the results based on whether the quiz is completed. `ng-repeat` lists all answer options, and `ng-click` handles selecting and submitting answers. The `ng-class` directive highlights the selected answer. A progress bar visually shows the user's progress, and any errors, such as no available questions, are displayed using data binding.
+
+![Quiz page](images/quiz.png)
+
+
 ## Conclusion
 
 AngularJS was essential in building our quiz app. We organized the app using modules and controllers, used ngRoute for smooth navigation, and applied directives like ng-model, ng-repeat, ng-if, ng-click, and ng-class to handle data binding and user interactions. The $http service fetched quiz questions from an API, and $location managed page redirects. These AngularJS features made our application dynamic, interactive, and easy to navigate.
