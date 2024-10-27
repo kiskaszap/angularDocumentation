@@ -322,7 +322,7 @@ For More Details [AngularJS Data Binding](https://docs.angularjs.org/guide/datab
 
    **_Expressions:_** We are using double curly braces to display the value of `car` in real time.
 
->`{{ }}`
+
 
 
    Completed code:
