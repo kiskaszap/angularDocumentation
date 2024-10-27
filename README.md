@@ -1195,7 +1195,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
     - Navigate to the views folder and create a file named menu.html. Then, paste the following code into it
 
-      <!-- menu.html -->
+>      \<!-- menu.html -->
 
 > \<div class="bg-gray-800 flex justify-center items-center w-full h-screen"\>  
 > <!-- Welcome message -->  
