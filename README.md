@@ -1376,18 +1376,18 @@ Open up your favorite text editor, I am going to be using visual studio code for
 > \<div class="bg-gray-800 h-screen"\>  
 >     \<div class="p-3 xl:pt-6"\>  
 >         \<h3 class="text-center text-2xl text-white"\>  
->             \{\{\ currentQuestion.category \}\}  
+>             \{\{ currentQuestion.category \}\}  
 >         \</h3\>  
 >         \<div class="w-11/12 bg-gray-200 rounded-full bg-white mx-auto mt-5 lg:w-9/12"\>  
 >             \<div  
 >                 class="bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 text-xs font-medium text-blue-100 text-center p-0.25 leading-none rounded-full"  
->                 style="width: \{\{\ (currentIndex / questions.length) * 100 \}\}%"  
+>                 style="width: \{\{ (currentIndex / questions.length) * 100 \}\}%"  
 >             \>  
->                 \{\{\ ((currentIndex / questions.length) * 100) | number:0 \}\}%  
+>                 \{\{ ((currentIndex / questions.length) * 100) | number:0 \}\}%  
 >             \</div\>  
 >         \</div\>  
 >     \</div\>  
->
+>     \<div></div>
 >     \<div ng-if="!quizCompleted" class="lg:flex gap-28 lg:place-content-around lg:mt-8 lg:w-screen xl:mt-12"\>  
 >         \<div class="hidden lg:flex lg:flex-col lg:self-start"\>  
 >             \<h1 class="text-5xl text-white text-center"\>Score\</h1\>  
@@ -1404,21 +1404,21 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >                 \</div\>  
 >             \</div\>  
 >         \</div\>  
->
+>         \<div></div>
 >         \<div class="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:self-start w-screen lg:w-1/2 xl:w-1/3"\>  
 >             \<div class="overflow-hidden mt-4 lg:col-span-full lg:mt-0 xl:h-24 pl-2 pr-2"\>  
 >                 \<h1 class="text-xl text-white text-center lg:text-2xl"\>  
 >                     \{\{\ currentQuestion.question \}\}  
 >                 \</h1\>  
 >             \</div\>  
->
+>              \<div></div>
 >             \<div ng-repeat="answer in currentQuestion.allAnswers" class="cursor-pointer hover:bg-indigo-600 xl:mt-10 rounded-xl"  
 >                 ng-click="selectAnswer(answer)" ng-class="\{'bg-indigo-600': userAnswer === answer\}"\>  
 >                 \<span class="text-white text-xl w-full p-4 text-left lg:text-center rounded-xl block"\>  
 >                     \{\{\ answer \}\}  
 >                 \</span\>  
 >             \</div\>  
->
+>              \<div></div>
 >             \<div class="absolute bottom-4 left-1/2 transform -translate-x-1/2"\>  
 >                 \<button ng-click="submitAnswer()" class="text-white bg-indigo-600 font-medium rounded-lg text-sm px-16 py-3.5 text-center"\>  
 >                     Submit  
@@ -1426,7 +1426,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >             \</div\>  
 >         \</div\>  
 >     \</div\>  
->
+>      \<div></div>
 >     \<div ng-if="quizCompleted" class="absolute top-1/2 left-1/2 p-10 bg-gray-700 rounded-2xl w-96 h-96 flex flex-col gap-y-8"  
 >         style="transform: translate(-50%, -50%)"\>  
 >         \<h1 class="text-5xl text-center text-gray-50"\>  
@@ -1445,7 +1445,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >             \</button\>  
 >         \</div\>  
 >     \</div\>  
->
+>      \<div></div>
 >     \<div ng-if="errorMessage" class="text-red-600 text-center mt-10"\>  
 >         \{\{\ errorMessage \}\}  
 >     \</div\>  
