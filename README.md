@@ -220,7 +220,10 @@ Used to display content and data to a user in a browser. Use expressions to inse
 
 
 `<!-- Example of inserting data into a view -->`
-<p>&#123;&#123; data &#125;&#125;</p>
+```plaintext
+&lt;p&gt;&#123;&#123; data &#125;&#125;&lt;/p&gt;
+```
+
 
 
 ### Controller
