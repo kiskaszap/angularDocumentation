@@ -684,9 +684,8 @@ For more details: [AngularJS Filters](https://docs.angularjs.org/guide/filter)
 
 - Filters are applied using the pipe symbol | followed by the filter name.
 
-  ```HTML
+  
   {{ expression | filter1 | filter2 }}
-  ```
 
 **Common Built-in Filters**
 
