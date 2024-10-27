@@ -799,7 +799,7 @@ For More Details [AngularJS Froms](https://docs.angularjs.org/guide/forms)
 
 **Setting Up the Form**
 
-1. Create a contact form in your contact.html view:
+1. Create a contact form in your contact.html view
 
    ```HTML
    <!-- contact.html -->
@@ -837,7 +837,7 @@ For More Details [AngularJS Froms](https://docs.angularjs.org/guide/forms)
 
    - **_Submit Button_**: Disabled using ng-disabled if the form is invalid.
 
-2. Add CSS to style invalid fields and error messages:
+2. Add CSS to style invalid fields and error messages
 
    ```CSS
    /* styles.css */
@@ -899,7 +899,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
     With the folder structure you've established, you need to include your AngularJS application script and controller scripts in your index.html file. Here's how you can do it:
 
-    - First, include the AngularJS core library and the ngRoute module from the Google CDN in the `<head`> section of your index.html file:
+    - First, include the AngularJS core library and the ngRoute module from the Google CDN in the `<head`> section of your index.html file
 
       ```HTML
       <!-- Include AngularJS core library -->
@@ -915,7 +915,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
       <script src="module/app.js"></script>
       ```
 
-    - Then, include your controller scripts, which are located in the controllers folder:
+    - Then, include your controller scripts, which are located in the controllers folder
 
       ```HTML
       <!-- Include controller scripts -->
@@ -924,7 +924,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
       <script src="controllers/quizController.js"></script>
       ```
 
-      Your index.html file should now look like this:
+      Your index.html file should now look like this
 
       ```HTML
       <!-- index.html -->
@@ -958,7 +958,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
     Now that we've linked all our JavaScript files in index.html, the next step is to define our AngularJS application module and configure the routes. We'll also create a custom filter to use within our app.
 
-    - In the module folder, open app.js and start by initializing your AngularJS application module:
+    - In the module folder, open app.js and start by initializing your AngularJS application module
 
       ```Javascript
       // app.js
@@ -969,7 +969,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
       **_let app =_**: We assign the module to a variable app so we can reference it later when defining configurations, controllers, filters, etc.
 
-    - Next, set up the routing configuration for your application using the $routeProvider service:
+    - Next, set up the routing configuration for your application using the $routeProvider service
 
       ```Javascript
       app.config(function ($routeProvider) {
@@ -1009,7 +1009,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
       });
       ```
 
-      Your app.js file should look like thios.
+      Your app.js file should look like this.
 
       ```Javascript
         // app.js
@@ -1050,7 +1050,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
     First, navigate to the controllers folder you created earlier and create a new file named loginController.js. This file will contain all the logic related to user login.
 
-    - Open loginController.js and add the following code:
+    - Open loginController.js and add the following code
 
       ```Javascript
       // controllers/loginController.js
@@ -1288,7 +1288,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 9.  **Quiz Controller**
 
-    - Open the quizController.js file in the controllers folder and add the following code:
+    - Open the quizController.js file in the controllers folder and add the following code
 
       ```Javascript
       // controllers/quizController.js
@@ -1387,7 +1387,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 10. **Quiz View**
 
-    - Create a file named quiz.html inside the views folder and add the following code:
+    - Create a file named quiz.html inside the views folder and add the following code
 
       ```HTML
       <!-- quiz.html -->
