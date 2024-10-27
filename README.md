@@ -583,22 +583,20 @@ Now that we have a module, we can start adding components to it, such as control
 
    We can use this controller in our HTML as follows:
 
-   ```HTML
-   <body ng-app="myPeterApp">
-   <div ng-controller="peterController">
-       <p>{{ message }}</p>
-       <ul>
-       <li ng-repeat="framework in frameworks">{{ framework }}</li>
-       </ul>
-   </div>
-   </body>
-   ```
+   > \<body ng-app="myPeterApp">  
+   > \<div ng-controller="peterController">  
+   >     \<p>\{\{ message \}\}</p>  
+   >     \<ul>  
+   >     \<li ng-repeat="framework in frameworks">\{\{ framework \}\}</li>  
+   >     \</ul>  
+   > \</div>  
+   > \</body>  
 
-   - **_ng-controller="peterController"_**: Attaches the 'peterController' to this `<div>` element.
+   - **_ng-controller="peterController"_**: Attaches the `peterController` to this `<div>` element.
 
-   - **_{{ message }}_**: Displays the message from the $scope in our controller.
+   - **_\{\{ message \}\}_**: Displays the message from the `$scope` in our controller.
 
-   - **_ng-repeat_**: Repeats the list item for each framework in the frameworks array.
+   - **_ng-repeat_**: Repeats the list item for each framework in the `frameworks` array.
 
 By structuring our application with modules, we gain better control over our codebase, making it easier to maintain and scale as our application grows.
 
@@ -607,52 +605,47 @@ By structuring our application with modules, we gain better control over our cod
 In AngularJS, controllers are used to control the data of your application. They are the bridge between the view (HTML) and the model (data), handling the interaction between the user and the app. Controllers are defined using JavaScript and are responsible for:
 
 - Initializing the model data.
-
-- Adding behaviors to the $scope object.
-
+- Adding behaviors to the `$scope` object.
 - Exposing functions and variables to the view.
 
 For More Details [AngularJS Controllers](https://docs.angularjs.org/guide/controller)
 
 **Creating a Controller**
 
-Let's create a controller named peterController within our module myPeterApp.
+Let's create a controller named `peterController` within our module `myPeterApp`.
 
-1. Define the Controller in app.js:
+1. Define the Controller in `app.js`:
 
-   ```Javascript
-   // app.js
-   let myPeterApp = angular.module('myPeterApp', []);
-
-   myPeterApp.controller('peterController', ['$scope', function($scope) {
-   $scope.message = 'Frameworks';
-   $scope.frameworks = ['ReactJS', 'NextJS', 'RemixJS', 'AngularJS'];
-   }]);
-   ```
+   > // app.js  
+   > let myPeterApp = angular.module('myPeterApp', []);  
+   >  
+   > myPeterApp.controller('peterController', ['$scope', function($scope) {  
+   > $scope.message = 'Frameworks';  
+   > $scope.frameworks = ['ReactJS', 'NextJS', 'RemixJS', 'AngularJS'];  
+   > }]);  
 
 2. Linking the Controller to the HTML
 
-   In your index.html file, link the controller to a specific part of your HTML using the ng-controller directive.
+   In your `index.html` file, link the controller to a specific part of your HTML using the `ng-controller` directive.
 
-   ```HTML
-   <!DOCTYPE html>
-   <html ng-app="myPeterApp">
-   <head>
-   <meta charset="UTF-8">
-   <title>Your AngularJS App</title>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-   <script src="app.js"></script>
-   </head>
-   <body>
-   <div ng-controller="peterController">
-       <p>{{ message }}</p>
-       <ul>
-       <li ng-repeat="framework in frameworks">{{ framework }}</li>
-       </ul>
-   </div>
-   </body>
-   </html>
-   ```
+   > \<!DOCTYPE html>  
+   > \<html ng-app="myPeterApp">  
+   > \<head>  
+   > \<meta charset="UTF-8">  
+   > \<title>Your AngularJS App</title>  
+   > \<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">\</script>  
+   > \<script src="app.js">\</script>  
+   > \</head>  
+   > \<body>  
+   > \<div ng-controller="peterController">  
+   >     \<p>\{\{ message \}\}</p>  
+   >     \<ul>  
+   >     \<li ng-repeat="framework in frameworks">\{\{ framework \}\}</li>  
+   >     \</ul>  
+   > \</div>  
+   > \</body>  
+   > \</html>  
+
 
 **Understanding $scope**
 
