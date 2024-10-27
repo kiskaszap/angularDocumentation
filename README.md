@@ -1198,16 +1198,16 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >      \<!-- menu.html -->
 
 > \<div class="bg-gray-800 flex justify-center items-center w-full h-screen"\>  
-> <!-- Welcome message -->  
+> \<!-- Welcome message -->  
 > \<div class="absolute top-6"\>  
 >     \<h1 class="text-4xl text-white">Welcome \{\{username\}\}\</h1\>  
 >     \<h1 class="text-2xl pt-2 text-white text-center xl:pt-6"\>  
 >     \{\{date | date:'fullDate'\}\}  
 >     \</h1\>  
 > \</div\>  
-> <!-- end of welcome message -->  
+> \<!-- end of welcome message -->  
 >  
-> <!-- Wrapper div for options -->  
+> \<!-- Wrapper div for options -->  
 > \<div  
 >     class="p-10 bg-gray-700 rounded-xl flex flex-col gap-y-1 items-center justify-center"  
 > \>  
@@ -1224,8 +1224,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \</option\>  
 >     \</select\>  
 >     \</div\>  
->  
->     <!-- Number of Questions -->  
+>     \<!-- Number of Questions -->  
 >     \<div class="max-w-md mx-auto w-full mt-4"\>  
 >     \<label class="font-bold text-gray-50 block py-2"\>  
 >         Number of Questions  
@@ -1238,8 +1237,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         class="h-10 bg-white border border-gray-200 rounded w-full px-4"  
 >     /\>  
 >     \</div\>  
->  
->     <!-- Difficulty selection -->  
+>     \<!-- Difficulty selection -->  
 >     \<div class="max-w-md mx-auto w-full mt-4"\>  
 >     \<label class="font-bold text-gray-50 block py-2">Select Difficulty\</label\>  
 >     \<select  
@@ -1252,11 +1250,9 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \</option\>  
 >     \</select\>  
 >     \</div\>  
->  
->     <!-- Error message -->  
+>     \<!-- Error message -->  
 >     \<div class="text-red-600 mt-2">\{\{errorMessage\}\}\</div\>  
->  
->     <!-- Submit button -->  
+>     \<!-- Submit button -->  
 >     \<div  
 >     class="w-40 h-10 text-white bg-indigo-600 font-medium rounded-lg text-center flex mt-7"  
 >     \>  
