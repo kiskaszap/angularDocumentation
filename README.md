@@ -708,14 +708,13 @@ First, we'll create separate HTML files for each view inside a views folder.
 
 2. views/directory.html
 
-   ```HTML
-   <div ng-controller="peterController">
-   <h2>{{ message }}</h2>
-   <ul>
-       <li ng-repeat="framework in frameworks">{{ framework }}</li>
-   </ul>
-   </div>
-   ```
+   > \<div ng-controller="peterController">  
+   > \<h2>\{\{ message \}\}</h2>  
+   > \<ul>  
+   >     \<li ng-repeat="framework in frameworks">\{\{ framework \}\}</li>  
+   > \</ul>  
+   > \</div>  
+
 
 **Configuring Routes**
 
