@@ -223,8 +223,8 @@ Used to display content and data to a user in a browser. Use expressions to inse
 \`<p>\{\{ data \}\}</p>\`
 
 
-```<p>{{ data }}</p>```
-``` &lt;p&gt;&#123;&#123; data &#125;&#125;&lt;/p&gt; ```
+`` `<p>{{ data }}</p>` ``
+
 
 
 
