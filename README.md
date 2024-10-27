@@ -314,34 +314,31 @@ For More Details [AngularJS Data Binding](https://docs.angularjs.org/guide/datab
 
 1. Add the following code between the `<body>` tags:
 
-   ```HTML
-   <h1>Two-Way Data Binding Example</h1>
-   <input type="text" ng-model="car" placeholder="Enter your favorite car">
-   <p>Your favorite car is: {{ car }}</p>
-   ```
+   > \<h1>Two-Way Data Binding Example\</h1>  
+   > \<input type="text" ng-model="car" placeholder="Enter your favorite car">  
+   > \<p>Your favorite car is: \{\{ car \}\}</p>  
 
-   - **_ng-model:_** The ng-model directive binds the input field to a model (data variable). So, whatever you type into the input field is stored in the car variable.
+   - **_ng-model:_** The `ng-model` directive binds the input field to a model (data variable). So, whatever you type into the input field is stored in the `car` variable.
 
-   - **_Expressions:_** We are using double curly braces {{ }} to display the value of car in real time.
+   - **_Expressions:_** We are using double curly braces `\{\{ \}\}` to display the value of `car` in real time.
 
-   Completed code;
+   Completed code:
 
-   ```HTML
-   <!DOCTYPE html>
-   <html ng-app>
-   <head>
-   <meta charset="UTF-8">
-   <title>Your AngularJS App</title>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
-   </head>
-   <body>
-   <h1>Two-Way Data Binding Example</h1>
-   <input type="text" ng-model="car" placeholder="Enter your favorite car">
-   <p>Your favorite car is: {{ car }}</p>
-   </body>
-   </html>
-   ```
+   > \<!DOCTYPE html>  
+   > \<html ng-app>  
+   > \<head>  
+   > \<meta charset="UTF-8">  
+   > \<title>Your AngularJS App\</title>  
+   > \<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">\</script>  
+   > \<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js">\</script>  
+   > \</head>  
+   > \<body>  
+   > \<h1>Two-Way Data Binding Example\</h1>  
+   > \<input type="text" ng-model="car" placeholder="Enter your favorite car">  
+   > \<p>Your favorite car is: \{\{ car \}\}</p>  
+   > \</body>  
+   > \</html>  
+
 
 Now, as you type into the input field, the paragraph below it updates automatically to show your input. This is called two-way data binding.
 
