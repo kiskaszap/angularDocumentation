@@ -1374,7 +1374,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
     - Create a file named quiz.html inside the views folder and add the following code:
 
       
-    >  <!-- quiz.html -->
+    >   quiz.html 
     > <div class="bg-gray-800 h-screen">
       <div class="p-3 xl:pt-6">
           <!-- Progress bar -->
