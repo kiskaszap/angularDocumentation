@@ -467,60 +467,45 @@ For More Details [AngularJS Expressions](https://docs.angularjs.org/guide/expres
 
 - You can perform calculations directly in your HTML:
 
-  ```HTML
-  <p>{{ 5 * 5 }}</p>
-  ```
+  > \<p>\{\{ 5 * 5 \}\}</p>
 
 - You can also concatenate strings:
 
-  ```HTML
-  <p>{{ 'Hello, ' + 'Peter!' }}</p>
-  ```
+  > \<p>\{\{ 'Hello, ' + 'Peter!' \}\}</p>
 
 **Using Variables**
 
-- Let's initialize some data using the ng-init directive (in real applications, you'd use controllers, but we'll use ng-init for simplicity):
+- Let's initialize some data using the `ng-init` directive (in real applications, you'd use controllers, but we'll use `ng-init` for simplicity):
 
-  ```HTML
-  <body ng-app ng-init="numbers=[1,2,3,4,5]; cars=['Mercedes','BMW','Audi']">
-  ```
+  > \<body ng-app ng-init="numbers=[1,2,3,4,5]; cars=['Mercedes','BMW','Audi']">
 
   Now you can access this data in your expressions.
 
 - Access array elements:
 
-  ```HTML
-  <p>First number: {{ numbers[0] }}</p> <!-- Outputs 1 -->
-  ```
+  > \<p>First number: \{\{ numbers[0] \}\}</p> <!-- Outputs 1 -->
 
 - Perform operations:
 
-  ```HTML
-  <p>Sum: {{ numbers[0] + numbers[3] }}</p> <!-- Outputs 5 -->
-  ```
+  > \<p>Sum: \{\{ numbers[0] + numbers[3] \}\}</p> <!-- Outputs 5 -->
 
 - Use strings from arrays:
 
-  ```HTML
-  <p>Do you like {{ cars[1] }} and {{ cars[2] }}?</p> <!-- Outputs 'Do you like BMW and Audi?' -->
-  ```
+  > \<p>Do you like \{\{ cars[1] \}\} and \{\{ cars[2] \}\}?</p> <!-- Outputs 'Do you like BMW and Audi?' -->
 
 **Expressions in Attributes**
 
 You can use expressions within HTML attributes to make them dynamic.
 
-- Dynamic Class Assignment
+- Dynamic Class Assignment  
   Let's set a color variable:
 
-  ```HTML
-  <body ng-app ng-init="color='red'">
-  ```
+  > \<body ng-app ng-init="color='red'">
 
 - Use it in your HTML:
 
-  ```HTML
-  <p class="{{ color }}">This text will be styled based on the color class.</p>
-  ```
+  > \<p class="\{\{ color \}\}">This text will be styled based on the color class.</p>
+
 
 Expressions allow you to easily display and manipulate data in your views.
 
