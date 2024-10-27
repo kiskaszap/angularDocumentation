@@ -686,7 +686,7 @@ For more details: [AngularJS Filters](https://docs.angularjs.org/guide/filter)
 
   **Example Syntax**:
   
-  &#123;&#123; expression | filter1 | filter2 &#125;&#125;
+  &#123;&#123; `expression | filter1 | filter2` &#125;&#125;
 
 **Common Built-in Filters**
 
@@ -702,7 +702,7 @@ For more details: [AngularJS Filters](https://docs.angularjs.org/guide/filter)
 
   **_Example_**
 
-`<p>&#123;&#123; message | uppercase &#125;&#125;</p> <!-- Converts message to uppercase -->`
+<p>&#123;&#123; message `|` uppercase &#125;&#125;</p> <!-- Converts message to uppercase -->
 
 ## Views and Routing
 
