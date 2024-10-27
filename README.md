@@ -222,9 +222,9 @@ Used to display content and data to a user in a browser. Use expressions to inse
 `<!-- Example of inserting data into a view -->`
 \`<p>\{\{ data \}\}</p>\`
 
-```markdown
-```angular
+```javascript
 <p>{{ data }}</p>
+```
 
 
 
