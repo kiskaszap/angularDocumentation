@@ -1253,7 +1253,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 \</div\>  
 
 
-      The menu.html file is connected to the menuController and uses AngularJS directives to handle user interactions. It displays a welcome message with the user's name and the current date. Users can select a quiz category and difficulty from dropdown menus, which are populated using ng-repeat to loop through the categories and difficulties arrays from the controller. The ng-model directive binds the selected values to $scope.selectedCategory and $scope.selectedDifficulty. There's also an input for the number of questions, bound to $scope.numberOfQuestions. If the user tries to submit without making all selections, an error message is shown using {{errorMessage}}. The submit button triggers the submit() function in the controller, which validates the inputs and navigates the user to the quiz page.
+-The menu.html file is connected to the menuController and uses AngularJS directives to handle user interactions. It displays a welcome message with the user's name and the current date. Users can select a quiz category and difficulty from dropdown menus, which are populated using ng-repeat to loop through the categories and difficulties arrays from the controller. The ng-model directive binds the selected values to $scope.selectedCategory and $scope.selectedDifficulty. There's also an input for the number of questions, bound to $scope.numberOfQuestions. If the user tries to submit without making all selections, an error message is shown using {{errorMessage}}. The submit button triggers the submit() function in the controller, which validates the inputs and navigates the user to the quiz page.
 
 ![Menu page](images/menu.png)
 
