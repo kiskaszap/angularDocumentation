@@ -220,9 +220,8 @@ Used to display content and data to a user in a browser. Use expressions to inse
 
 
 `<!-- Example of inserting data into a view -->`
-```plaintext
-&lt;p&gt;&#123;&#123; data &#125;&#125;&lt;/p&gt;
-```
+&lt;p&gt;{{ data }}&lt;/p&gt;
+
 
 
 
