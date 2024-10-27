@@ -1198,20 +1198,15 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >      <!-- menu.html -->
 >
 > \<div class="bg-gray-800 flex justify-center items-center w-full h-screen"\>  
->      \<!-- welcome message -->
 > \<div class="absolute top-6"\>  
 >     \<h1 class="text-4xl text-white">Welcome \{\{ username \}\}\</h1\>  
 >     \<h1 class="text-2xl pt-2 text-white text-center xl:pt-6"\>  
 >     \{\{ date | date:'fullDate' \}\}  
 >     \</h1\>  
 > \</div\>  
-> \<!-- end of welcome message -->  
->  
-> \<!-- Wrapper div for options -->  
 > \<div  
 >     class="p-10 bg-gray-700 rounded-xl flex flex-col gap-y-1 items-center justify-center"  
 > \>  
->     <!-- Category selection -->  
 >     \<div class="max-w-md mx-auto w-full"\>  
 >     \<label class="font-bold text-gray-50 block py-2">Select Category\</label\>  
 >     \<select  
@@ -1224,7 +1219,6 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \</option\>  
 >     \</select\>  
 >     \</div\>  
->     \<!-- Number of Questions -->  
 >     \<div class="max-w-md mx-auto w-full mt-4"\>  
 >     \<label class="font-bold text-gray-50 block py-2"\>  
 >         Number of Questions  
@@ -1237,7 +1231,6 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         class="h-10 bg-white border border-gray-200 rounded w-full px-4"  
 >     /\>  
 >     \</div\>  
->     \<!-- Difficulty selection -->  
 >     \<div class="max-w-md mx-auto w-full mt-4"\>  
 >     \<label class="font-bold text-gray-50 block py-2">Select Difficulty\</label\>  
 >     \<select  
@@ -1250,9 +1243,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 >         \</option\>  
 >     \</select\>  
 >     \</div\>  
->     \<!-- Error message -->  
 >     \<div class="text-red-600 mt-2">\{\{errorMessage\}\}\</div\>  
->     \<!-- Submit button -->  
 >     \<div  
 >     class="w-40 h-10 text-white bg-indigo-600 font-medium rounded-lg text-center flex mt-7"  
 >     \>  
@@ -1264,7 +1255,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
       The menu.html file is connected to the menuController and uses AngularJS directives to handle user interactions. It displays a welcome message with the user's name and the current date. Users can select a quiz category and difficulty from dropdown menus, which are populated using ng-repeat to loop through the categories and difficulties arrays from the controller. The ng-model directive binds the selected values to $scope.selectedCategory and $scope.selectedDifficulty. There's also an input for the number of questions, bound to $scope.numberOfQuestions. If the user tries to submit without making all selections, an error message is shown using {{errorMessage}}. The submit button triggers the submit() function in the controller, which validates the inputs and navigates the user to the quiz page.
 
-      ![Menu page](images/menu.png)
+![Menu page](images/menu.png)
 
 9.  **Quiz Controller**
 
