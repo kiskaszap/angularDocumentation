@@ -1152,7 +1152,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 
 
-    - The login.html file presents a styled login form where users     can enter their username and email. The input fields are           connected to the loginController using ng-model. When the         form is submitted, it calls the submitLogin() function. If         there are any validation errors, they are displayed above         the form with {{validationMessage}}
+The login.html file presents a styled login form where users     can enter their username and email. The input fields are           connected to the loginController using ng-model. When the         form is submitted, it calls the submitLogin() function. If         there are any validation errors, they are displayed above         the form with {{validationMessage}}
 
 ![Login page](images/login.png)
 
