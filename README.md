@@ -1230,7 +1230,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
   <!-- Welcome message -->
   <div class="absolute top-6">
     <h1 class="text-4xl text-white">Welcome {{username}}</h1>
-    <h1 class="text-2xl pt-2 text-white text-center xl:pt-6">
+    <h1 class=" pt-2 text-white text-center xl:pt-1">
       {{date | date:'fullDate'}}
     </h1>
   </div>
