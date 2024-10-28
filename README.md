@@ -246,6 +246,8 @@ Suppose a user submits a contact form. The controller detects the form submissio
 
 In this section, I'm going to show you how to set up our development environment. You do not have to follow along at this stage if you do not want to, as we will start building the project from the **Building the Quiz Application section**, but it is advisable.
 
+If you want to start to build the project please head to [Building the Quiz Application](#building-the-quiz-application)
+
 ### Including AngularJS via CDN
 
 Instead of downloading AngularJS and dealing with local files, we can include it directly using a Content Delivery Network (CDN).
