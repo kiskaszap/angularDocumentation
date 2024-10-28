@@ -914,7 +914,18 @@ Open up your favorite text editor, I am going to be using visual studio code for
       <script src="controllers/menuController.js"></script>
       <script src="controllers/quizController.js"></script>
       ```
-
+    - Also, include the ng-app attribute in the html tag and assign it to the quizApp
+       ```HTML
+      <!-- Include module -->
+      <html lang="en" ng-app="quizApp">
+      ```
+    - Also, include the ng-view in a div tag in the body
+       ```HTML
+      <!-- Include ng-view -->
+      <div ng-view></div>
+      ```
+       
+      
       Your index.html file should now look like this
 
       ```HTML
