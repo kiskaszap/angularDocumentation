@@ -882,7 +882,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
       ![file structure](images/file-structure.png)
 
 3.  **Linking the javascript files and the tailwindCSS to the index.html.**
-    First include the Tailwind CSS in the heading section to link the styles sheet to the index.html file 
+    - First include the Tailwind CSS in the heading section to link the styles sheet to the index.html file 
       ```HTML
       <!-- Linking Tailwind css -->
      <script src="https://cdn.tailwindcss.com"></script>
@@ -890,7 +890,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
     With the folder structure you've established, you need to include your AngularJS application script and controller scripts in your index.html file. Here's how you can do it:
 
-    - First, include the AngularJS core library and the ngRoute module from the Google CDN in the `<head`> section of your index.html file
+    - Now, include the AngularJS core library and the ngRoute module from the Google CDN in the `<head`> section of your index.html file
 
       ```HTML
       <!-- Include AngularJS core library -->
