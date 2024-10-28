@@ -165,7 +165,7 @@ Group E Presentation:
 
 ---
 
-  # Tutorial on AngularJS
+# Tutorial on AngularJS
 
 In this document, I'm gonna talk a little bit about what AngularJS actually is, why we use it, and what you're gonna be learning.
 
