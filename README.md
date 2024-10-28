@@ -1303,7 +1303,7 @@ The login.html file presents a styled login form where users     can enter their
 
 10.  **Quiz Controller**
 
-    - Open the quizController.js file in the controllers folder and add the following code
+        - Open the quizController.js file in the controllers folder and add the following code
 
       ```javascript
       // controllers/quizController.js
