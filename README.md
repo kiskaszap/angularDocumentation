@@ -277,7 +277,7 @@ Instead of downloading AngularJS and dealing with local files, we can include it
     Notes:
 
     - **_ng-app_**: This attribute initializes your AngularJS application. Placing it in the `<html>` tag tells AngularJS that the entire page is part of the app.
-    - **_ Script in `<head>`_**: Unlike other scripts that you might place at the end of the `<body>`, AngularJS should be included in the `<head>` because it needs to load before the content to properly set up the templating and data binding.
+    - **_Script in `<head>`_**: Unlike other scripts that you might place at the end of the `<body>`, AngularJS should be included in the `<head>` because it needs to load before the content to properly set up the templating and data binding.
 
 2.  Include Additional Modules
 
