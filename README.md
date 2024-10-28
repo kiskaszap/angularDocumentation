@@ -1048,9 +1048,9 @@ Open up your favorite text editor, I am going to be using visual studio code for
         });
       ```
 
-6.  **Create the loginController.js File**
+6.  **Modify the loginController.js File**
 
-    First, navigate to the controllers folder you created earlier and create a new file named loginController.js. This file will contain all the logic related to user login.
+    First, navigate to the controllers folder you created earlier and open the file named loginController.js. This file will contain all the logic related to user login.
 
     - Open loginController.js and add the following code
 
