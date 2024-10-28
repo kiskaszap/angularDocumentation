@@ -1083,9 +1083,10 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
     - First, navigate to the views folder and edit the file named login.html. Then, paste the following code into it
 
-   <!-- login.md -->
+   
 
-```html
+{% highlight html%}
+{% raw %}
 <!-- login.html -->
 <div
   class="relative h-screen bg-gradient-to-br bg-gray-800 flex justify-center items-center w-full flex-col"
@@ -1146,7 +1147,8 @@ Open up your favorite text editor, I am going to be using visual studio code for
     </div>
   </div>
 </div>
-```
+{% endraw %}
+{% endhighlight %}
 
 
 
