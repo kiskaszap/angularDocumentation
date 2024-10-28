@@ -881,7 +881,12 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
       ![file structure](images/file-structure.png)
 
-3.  **Linking the javascript files to the index.html.**
+3.  **Linking the javascript files and the tailwindCSS to the index.html.**
+    First include the Tailwind CSS in the heading section to link the styles sheet to the index.html file 
+      ```HTML
+      <!-- Include AngularJS core library -->
+     <script src="https://cdn.tailwindcss.com"></script>
+      ```
 
     With the folder structure you've established, you need to include your AngularJS application script and controller scripts in your index.html file. Here's how you can do it:
 
@@ -940,7 +945,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
       </html>
       ```
 
-4.  **Setting Up app.js**
+5.  **Setting Up app.js**
 
     Now that we've linked all our JavaScript files in index.html, the next step is to define our AngularJS application module and configure the routes. We'll also create a custom filter to use within our app.
 
@@ -1032,7 +1037,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
         });
       ```
 
-5.  **Create the loginController.js File**
+6.  **Create the loginController.js File**
 
     First, navigate to the controllers folder you created earlier and create a new file named loginController.js. This file will contain all the logic related to user login.
 
@@ -1063,7 +1068,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
       The loginController handles the login form by storing the user's name and email in $scope.user. When the user submits the form, the submitLogin function checks if the email includes an "@" and if the name is entered. If both are valid, it saves the name to the browser's local storage and redirects the user to the menu page. If not, it shows an error message.
 
-6.  **Creating the Login View**
+7.  **Creating the Login View**
 
     - First, navigate to the views folder and create a file named       login.html. Then, paste the following code into it
 
