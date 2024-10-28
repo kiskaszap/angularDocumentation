@@ -1130,6 +1130,8 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 ![Login page](images/login.png)
 
+
+
 7.  **Setting up the Menu Controller**
 
     - In the controllers folder, create a file named menuController.js and add the following code
