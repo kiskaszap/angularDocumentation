@@ -1104,7 +1104,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
     <h2 class="text-3xl text-center text-gray-50 mb-4">Login Form</h2>
     <!-- validationMessage has to be between two curly braces {{validationMessage}} -->
 
-    <h3 class="text text-red-600 text-center mb-4">validationMessage</h3>
+    <h3 class="text text-red-600 text-center mb-4">{{validationMessage}}</h3>
     <div class="px-12 pb-10">
       <form ng-submit="submitLogin()">
         <div class="w-full mb-2">
