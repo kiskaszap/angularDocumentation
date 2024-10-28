@@ -1305,8 +1305,7 @@ The login.html file presents a styled login form where users     can enter their
 
     - Open the quizController.js file in the controllers folder and add the following code
 
-      
-      ```Javascript
+      ```javascript
       // controllers/quizController.js
       angular.module("quizApp").controller("quizController", function ($scope, $http, $location) {
       $scope.username = localStorage.getItem("name");
@@ -1400,7 +1399,7 @@ The login.html file presents a styled login form where users     can enter their
       ```
       
 
-      The quizController uses AngularJS's $scope to manage and bind data such as the user's name, quiz settings, questions, and score to the view. It leverages the $http service to fetch quiz questions from the Open Trivia Database API. The controller employs $location to navigate between different routes, redirecting users to the login page if they're not authenticated or to the menu after logging out. Functions like submitAnswer, goToMenu, and logout are defined on $scope to handle user interactions, update the score, move to the next question, and manage navigation within the AngularJS framework.
+The quizController uses AngularJS's $scope to manage and bind data such as the user's name, quiz settings, questions, and score to the view. It leverages the $http service to fetch quiz questions from the Open Trivia Database API. The controller employs $location to navigate between different routes, redirecting users to the login page if they're not authenticated or to the menu after logging out. Functions like submitAnswer, goToMenu, and logout are defined on $scope to handle user interactions, update the score, move to the next question, and manage navigation within the AngularJS framework.
 
 11. **Quiz View**
 
