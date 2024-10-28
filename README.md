@@ -1063,74 +1063,79 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 6.  **Creating the Login View**
 
-    - First, navigate to the views folder and create a file named login.html. Then, paste the following code into it
+    - First, navigate to the views folder and create a file named       login.html. Then, paste the following code into it
 
      <!-- login.html -->
 
-  > \<div  
-  > class="relative h-screen bg-gradient-to-br bg-gray-800 flex     justify-center items-center w-full flex-col"  
-  > \>  
-  > \<div class="absolute top-6"\>  
-  >     \<h1 class="text-4xl text-gray-50">Quiz\</h1>  
-  > \</div>  
-  > \<div class="w-full sm:w-2/3 md:w-2/3 lg:w-1/3 bg-gray-700       rounded-lg"\>  
-  >     \<div class="flex font-bold justify-center mt-6"\>  
-  >     \<img  
-  >         class="h-20 w-20"  
-  >                 
-  src="https://raw.githubusercontent.com/sefyudem/Responsive-  
-  Login-Form/master/img/avatar.svg"  
-  >     /\>  
-  >     \</div>  
-  >     \<h2 class="text-3xl text-center text-gray-50 mb-4">Login   Form\</h2>  
-  >     \<h3 class="text text-red-600 text-center mb-4">\{\{         validationMessage \}\}\</h3>  
-  >     \<div class="px-12 pb-10"\>  
-  >     \<form ng-submit="submitLogin()"\>  
-  >         \<div class="w-full mb-2"\>  
-  >         \<div class="flex items-center"\>  
-  >             \<i  
-  >             class="ml-3 fill-current text-gray-400 text-xs z-    10 fas fa-user"  
-  >             \>\</i\>  
-  >             \<input  
-  >             type="text"  
-  >             placeholder="Username"  
-  >             autocomplete="off"  
-  >             ng-model="user.name"  
-  >             class="-mx-6 px-8 w-full border rounded px-3 py-2   text-gray-700 focus:outline-none"  
-  >             /\>  
-  >         \</div\>  
-  >         \</div\>  
-  >         \<div class="w-full mb-2"\>  
-  >         \<div class="flex items-center"\>  
-  >             \<i  
-  >             class="ml-3 fill-current text-gray-400 text-xs z-    10 fas fa-lock"  
-  >             \>\</i\>  
-  >             \<input  
-  >             autocomplete="off"  
-  >             type="email"  
-  >             placeholder="Email"  
-  >             ng-model="user.email"  
-  >             class="-mx-6 px-8 w-full border rounded px-3 py-2   text-gray-700 focus:outline-none"  
-  >             /\>  
-  >         \</div\>  
-  >         \</div\>  
-  >         \<div class="flex items-center"\>  
-  >         \<button  
-  >             type="submit"  
-  >             class="w-full py-2 rounded-full bg-indigo-600       focus:outline-none mt-2 mr-5 text-white"  
-  >         \>  
-  >             Submit  
-  >         \</button\>  
-  >         \</div\>  
-  >     \</form\>  
-  >     \</div\>  
-  > \</div\>  
-  \</div\>
+    > \<div  
+    > class="relative h-screen bg-gradient-to-br bg-gray-800 flex     justify-center items-center w-full flex-col"  
+    > \>  
+    > \<div class="absolute top-6"\>  
+    >     \<h1 class="text-4xl text-gray-50">Quiz\</h1>  
+    > \</div>  
+    > \<div class="w-full sm:w-2/3 md:w-2/3 lg:w-1/3 bg-gray-700       rounded-lg"\>  
+    >     \<div class="flex font-bold justify-center mt-6"\>  
+    >     \<img  
+    >         class="h-20 w-20"  
+    >                 
+    src="https://raw.githubusercontent.com/sefyudem/Responsive-  
+    Login-Form/master/img/avatar.svg"  
+    >     /\>  
+    >     \</div>  
+    >     \<h2 class="text-3xl text-center text-gray-50 mb-    
+      4">Login   Form\</h2>  
+    >     \<h3 class="text text-red-600 text-center mb-4">\{\{         validationMessage \}\}\</h3>  
+    >     \<div class="px-12 pb-10"\>  
+    >     \<form ng-submit="submitLogin()"\>  
+    >         \<div class="w-full mb-2"\>  
+    >         \<div class="flex items-center"\>  
+    >             \<i  
+    >             class="ml-3 fill-current text-gray-400
+                 text-xs z-    10 fas fa-user"  
+    >             \>\</i\>  
+    >             \<input  
+    >             type="text"  
+    >             placeholder="Username"  
+    >             autocomplete="off"  
+    >             ng-model="user.name"  
+    >             class="-mx-6 px-8 w-full border rounded px-3
+    >             py-2   text-gray-700 focus:outline-none"  
+    >             /\>  
+    >         \</div\>  
+    >         \</div\>  
+    >         \<div class="w-full mb-2"\>  
+    >         \<div class="flex items-center"\>  
+    >             \<i  
+    >             class="ml-3 fill-current text-gray-400
+                  text-xs z-    10 fas fa-lock"  
+    >             \>\</i\>  
+    >             \<input  
+    >             autocomplete="off"  
+    >             type="email"  
+    >             placeholder="Email"  
+    >             ng-model="user.email"  
+    >             class="-mx-6 px-8 w-full border rounded px-3   
+        py-2   text-gray-700 focus:outline-none"  
+    >             /\>  
+    >         \</div\>  
+    >         \</div\>  
+    >         \<div class="flex items-center"\>  
+    >         \<button  
+    >             type="submit"  
+    >             class="w-full py-2 rounded-full bg-indigo-600       focus:outline-none mt-2 mr-5 text-white"  
+    >         \>  
+    >             Submit  
+    >         \</button\>  
+    >         \</div\>  
+    >     \</form\>  
+    >     \</div\>  
+    > \</div\>  
+    \</div\>
 
 
-    -The login.html file presents a styled login form where users can enter their username and email. The input fields are connected to the loginController using ng-model. When the form is submitted, it calls the submitLogin() function. If there are any validation errors, they are displayed above the form with {{validationMessage}}
+    -The login.html file presents a styled login form where users     can enter their username and email. The input fields are           connected to the loginController using ng-model. When the         form is submitted, it calls the submitLogin() function. If         there are any validation errors, they are displayed above         the form with {{validationMessage}}
 
-    ![Login page](images/login.png)
+![Login page](images/login.png)
 
 
 
