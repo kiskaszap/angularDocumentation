@@ -884,7 +884,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 3.  **Linking the javascript files and the tailwindCSS to the index.html.**
     First include the Tailwind CSS in the heading section to link the styles sheet to the index.html file 
       ```HTML
-      <!-- Include AngularJS core library -->
+      <!-- Linking Tailwind css -->
      <script src="https://cdn.tailwindcss.com"></script>
       ```
 
