@@ -1081,7 +1081,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 7.  **Creating the Login View**
 
-    - First, navigate to the views folder and create a file named       login.html. Then, paste the following code into it
+    - First, navigate to the views folder and edit the file named login.html. Then, paste the following code into it
 
      <!-- login.html -->
 
@@ -1157,10 +1157,10 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 
 
-7.  **Setting up the Menu Controller**
+8.  **Setting up the Menu Controller**
 
-    - In the controllers folder, create a file named     
-    menuController.js and add the following code
+    - In the controllers folder, edit the file named     
+    menuController.js with adding the following code
 
       ```Javascript
       // controllers/menuController.js
@@ -1219,9 +1219,9 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
       The menuController ensures the user is logged in by retrieving the username from local storage. If not found, it redirects to the login page using $location.path("/"). It sets up lists of quiz categories and difficulties, and binds the user's selections to $scope variables. When the user submits their choices, the controller checks that both category and difficulty are selected. If valid, it saves these selections to local storage and navigates to the quiz page with $location.path("/quiz"). If not, it displays an error message by updating $scope.errorMessage.
 
-8.  **Menu View**
+9.  **Menu View**
 
-    - Navigate to the views folder and create a file named menu.html. Then, paste the following code into it
+    - Navigate to the views folder and edit the file named menu.html with pasting the following code into it
 
 >      <!-- menu.html -->
 >
@@ -1285,7 +1285,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
 ![Menu page](images/menu.png)
 
-9.  **Quiz Controller**
+10.  **Quiz Controller**
 
     - Open the quizController.js file in the controllers folder and add the following code
 
@@ -1384,7 +1384,7 @@ Open up your favorite text editor, I am going to be using visual studio code for
 
       The quizController uses AngularJS's $scope to manage and bind data such as the user's name, quiz settings, questions, and score to the view. It leverages the $http service to fetch quiz questions from the Open Trivia Database API. The controller employs $location to navigate between different routes, redirecting users to the login page if they're not authenticated or to the menu after logging out. Functions like submitAnswer, goToMenu, and logout are defined on $scope to handle user interactions, update the score, move to the next question, and manage navigation within the AngularJS framework.
 
-10. **Quiz View**
+11. **Quiz View**
 
 - Create a file named `quiz.html` inside the `views` folder and add the following code:
 
